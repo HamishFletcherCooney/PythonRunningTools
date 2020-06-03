@@ -27,13 +27,13 @@ def userinput():
     #CompletedDistanceTime
     global ecth
     ecth = Entry(root,width=10,borderwidth=5) #hours
-    ecth.insert(0, "0")
+    ecth.insert(0, "0") #will be h
     global ectm
     ectm = Entry(root,width=10,borderwidth=5) #minutes
-    ectm.insert(0, "13")
+    ectm.insert(0, "13") #will be mm
     global ects
     ects= Entry(root,width=10,borderwidth=5) #seconds
-    ects.insert(0, "50")
+    ects.insert(0, "50") #will be ss
 
     #TargetDistanceEntry
     global etd
